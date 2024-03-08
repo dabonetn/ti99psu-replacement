@@ -8,7 +8,7 @@ It uses a regulated +12V DC external power supply, 48 watt or greater.
 Use a good quality supply, as this is the actual +12v for the computer.
 
 This uses a DFR0831 5v buck converter, that's rated for +5v@4a, but I recommned no more than 3.5a draw.
-There's a error on the schematics, the 220ohm resistor isn't enough for modern leds, so I recommend a 560ohm.
+There's a error on the schematics, the 220ohm resistor isn't enough for modern leds, so I recommend a 560ohm for bright or 2.2k for dull.
 
 You should also use a 2.5mm thermal pad underneath the DFR8031 to help cool it.
 
