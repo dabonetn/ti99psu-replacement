@@ -11,7 +11,7 @@ This uses a DFR0831 5v buck converter, that's rated for +5v@4a, but I recommned 
 
 You should also use a 2.5mm thermal pad underneath the DFR8031 to help cool it.
 
--5v is provided with a v7805-2000 switching regulator... It's overkill and will replaced with a 1a version later.
+-5v is provided with a v7805-2000 switching regulator... It's overkill and will be replaced with a 1a version later.
 -5v is basically there for the 4116 ram.
 
 The SUP53P06-20-E3 mosfet is there for reverse voltage input, but you can leave it out by connecting pins d & s ( the two close to the edge of the board)
