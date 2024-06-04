@@ -2,7 +2,9 @@
 Full drop in TI99/4a Power supply replacement. No soldering.
 
 
-This board is a drop in replacement for the internal TI99/4a power board.
+This board is a drop in replacement for the internal TI99/4a power board that uses the pin headers to connect to the motherboard.
+There is a header to install the pigtail that some early units used.
+
 It uses a regulated +12V DC external power supply, 48 watt or greater. (4amp)
 
 Use a good quality supply, as this is the actual +12v for the computer.
