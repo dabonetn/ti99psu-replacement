@@ -29,25 +29,31 @@ I wanted more than a 2a 5v supply, so I spun this up.
 BOM:
 
 
-G-Switch SS-22G88-G090 from lcsc.
+--G-Switch SS-22G88-G090 from lcsc.
+
 https://www.lcsc.com/product-detail/C2848925.html
 
 This switch needs to be trimmed to fit, it's a little too long, I just use some flush cutters to trim to size.
 
-YLPTEC K7805-1000R3 from lcsc.        
+--YLPTEC K7805-1000R3 from lcsc.
+
 https://www.lcsc.com/product-detail/C2992391.html
+
+
 Only substitute with parts that support a negative output. Some buck converts don't have negative output support.
 
-DFR0831 (Digikey/Mouser/etc)
+--DFR0831 (Digikey/Mouser/etc)
 
-TE Connectivity 1-1123723-4 from lcsc.
+--TE Connectivity 1-1123723-4 from lcsc.
+
 https://www.lcsc.com/product-detail/C596174.html
 
-Standard LED round. Your choice of color.
-Either a 560 or 2.2k resistor for the led.
+--Standard LED round. Your choice of color.
+--Either a 560 or 2.2k resistor for the led.
 
-10uf@25v Caps X3
-25uf@16v Caps X2
+--10uf@25v Caps X3
+
+--25uf@16v Caps X2
 
 
 
