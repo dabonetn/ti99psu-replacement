@@ -18,13 +18,39 @@ You should also use a 2.5mm thermal pad underneath the DFR8031 to help cool it.
 -5v is provided with a P78E05-1000 switching regulator...This is rated for 1amp compared to the originals .5 amp.
 -5v is basically there for the 4116 ram.
 
-The SUP53P06-20-E3 mosfet is there for reverse voltage input, but you can leave it out by connecting pins d & s ( the two close to the edge of the board)
+The mosfet is there for reverse voltage input, but you can leave it out by connecting pins d & s ( the two close to the edge of the board)
 
 This is a remix of the TI99-4A-dc-power-board by jonn-reenthused
 
 https://github.com/jonn-reenthused/TI99-4A-dc-power-board
 
 I wanted more than a 2a 5v supply, so I spun this up. 
+
+BOM:
+
+
+G-Switch SS-22G88-G090 from lcsc.
+https://www.lcsc.com/product-detail/C2848925.html
+
+This switch needs to be trimmed to fit, it's a little too long, I just use some flush cutters to trim to size.
+
+YLPTEC K7805-1000R3 from lcsc.        
+https://www.lcsc.com/product-detail/C2992391.html
+Only substitute with parts that support a negative output. Some buck converts don't have negative output support.
+
+DFR0831 (Digikey/Mouser/etc)
+
+TE Connectivity 1-1123723-4 from lcsc.
+https://www.lcsc.com/product-detail/C596174.html
+
+Standard LED round. Your choice of color.
+Either a 560 or 2.2k resistor for the led.
+
+10uf@25v Caps X3
+25uf@16v Caps X2
+
+
+
 
 
 This project was made using EasyEDA, because the original version I forked this from was.
